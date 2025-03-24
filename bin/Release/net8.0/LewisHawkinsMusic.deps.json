@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LewisHawkinsMusic/1.0.0": {
+        "dependencies": {
+          "Vite.AspNetCore": "2.4.0"
+        },
+        "runtime": {
+          "LewisHawkinsMusic.dll": {}
+        }
+      },
+      "Vite.AspNetCore/2.4.0": {
+        "runtime": {
+          "lib/net8.0/Vite.AspNetCore.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LewisHawkinsMusic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vite.AspNetCore/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vOJCdu2bu8SW0JuDb6jzevcm+2F2Rw0Cfan8YsijmpOPwxKzdPbJ4WgkS4wROAR3zAfbofmQeJq9BK+MK3JOsw==",
+      "path": "vite.aspnetcore/2.4.0",
+      "hashPath": "vite.aspnetcore.2.4.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,11 +1,42 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Vite.AspNetCore/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Vite.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Vite.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Vite.AspNetCore/2.4.0": {
+      "sha512": "vOJCdu2bu8SW0JuDb6jzevcm+2F2Rw0Cfan8YsijmpOPwxKzdPbJ4WgkS4wROAR3zAfbofmQeJq9BK+MK3JOsw==",
+      "type": "package",
+      "path": "vite.aspnetcore/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net8.0/Vite.AspNetCore.dll",
+        "vite.aspnetcore.2.4.0.nupkg.sha512",
+        "vite.aspnetcore.nuspec",
+        "vite.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Vite.AspNetCore >= 2.4.0"
+    ]
   },
   "packageFolders": {
     "/Users/lewishawkins/.nuget/packages/": {}
@@ -48,6 +79,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Vite.AspNetCore": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

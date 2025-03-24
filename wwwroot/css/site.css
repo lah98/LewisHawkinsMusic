@@ -18,5 +18,15 @@ html {
 }
 
 body {
+  color: #fff;
   margin-bottom: 60px;
+  background-color: wheat;
+  background-image: url(../images/index-bg.jpg);
+  background-size: contain;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+  display: none;
 }

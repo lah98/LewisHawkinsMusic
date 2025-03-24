@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LewisHawkinsMusic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9c8ea1358ce81b5381cd32baf5d4e8d93ec733c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LewisHawkinsMusic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LewisHawkinsMusic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
